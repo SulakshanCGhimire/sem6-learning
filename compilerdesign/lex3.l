@@ -100,7 +100,7 @@ KEYWORD    auto|break|case|char|const|continue|default|do|double|else|enum|exter
 }
 
 
-/* Ignore everything else */
+
 
 [ \t\r\n]+ ;
 
