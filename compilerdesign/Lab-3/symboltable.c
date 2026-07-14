@@ -54,7 +54,6 @@ int getValue(char *name)
 
 void displaySymbolTable()
 {
-    printf("\n--------- SYMBOL TABLE ----------\n");
     printf("Variable\tValue\tInit\n");
 
     for(int i=0;i<count;i++)
