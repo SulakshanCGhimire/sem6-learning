@@ -44,7 +44,6 @@ int get(char *name)
 
 void display()
 {
-    printf("\n--- SYMBOL TABLE ---\n");
     for(int i=0;i<count;i++)
         printf("%s = %d\n", table[i].name, table[i].value);
 }
